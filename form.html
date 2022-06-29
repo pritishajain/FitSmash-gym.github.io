@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>membership form</title>
+    <link rel="stylesheet" href="stylemem.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <form action="" method="GET">
+    <h1>FITSMASH</h1>
+    <p>Want to become aur member?Fill the form below , we will contact you shortly to complete your registration process. </p>
+    <br>
+    <p class="required">Required details are followed by *</p>
+    <hr>
+    <h3>Personal Details</h3>
+    <p>
+        Name:*
+        <br>
+        <input type="text" name="Name" required placeholder="first name">
+        <input type="text" name="Name" required placeholder="last name">
+
+    </p>
+    <p>
+        <fieldset>
+        <legend>Gender</legend>
+        Male<input type="radio" name="gender" id="male" required>
+        Female<input type="radio" name="gender" id="female" required>
+        </fieldset>
+    </p>
+
+    <p>
+        Age: * <input type="number" name="Age" placeholder="eg:20" required>
+
+
+    </p>
+
+
+    <p>
+        Contact no: * <input type="number" name="Contact no" placeholder="### ### ####" required>
+
+
+    </p>
+    <p>
+        Email Id:<input type="email" name="email" placeholder="abc@gmail.com" >
+    </p>
+
+    <p>
+       Address: * 
+       <br>
+       Street no:<input type="text" name="street no." placeholder="Street no" required>
+    
+      <input type="text" name="street no." placeholder="landmark,society"  required>
+      <br>
+      
+       city:<input type="text" name="city"  required>
+       state:<input type="text" name="state"  required>
+       <br>
+       Pincode:<input type="number" name="Pincode" placeholder="eg.302020"  required>
+
+    </p>
+   
+    <p>
+        Do you have any disability?*
+        yes <input type="radio" name="disablity"  required>
+        No <input type="radio" name="disablity" required>
+        <br>
+        if yes? please specify
+        <br>
+        <textarea rows="5" cols="30"></textarea required> 
+    </p>
+    <input type="submit" name="submit" >
+
+    </form>
+</div>
+    
+</body>
+</html>
